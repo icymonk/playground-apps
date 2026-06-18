@@ -1,9 +1,13 @@
-name: Deploy to Firebase Hosting
+name: Deploy habit-tracker
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'apps/habit-tracker/**'
+      - '.github/workflows/deploy-habit-tracker.yml'
+      - 'firebase.json'
 
 jobs:
   build_and_deploy:
@@ -19,14 +23,8 @@ jobs:
       - name: Install Monorepo Dependencies
         run: bun install
 
-      - name: Build Habit Tracker
+      - name: Build habit-tracker
         run: cd apps/habit-tracker && bun run build
-
-      - name: Build Expense Tracker
-        run: cd apps/expense-tracker && bun run build
-
-      - name: Build Task Board
-        run: cd apps/task-board && bun run build
 
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -35,3 +33,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           projectId: '${{ secrets.FIREBASE_PROJECT_ID }}'
           channelId: live
+          target: habit-tracker

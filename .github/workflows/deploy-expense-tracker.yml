@@ -1,0 +1,36 @@
+name: Deploy expense-tracker
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/expense-tracker/**'
+      - '.github/workflows/deploy-expense-tracker.yml'
+      - 'firebase.json'
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install Monorepo Dependencies
+        run: bun install
+
+      - name: Build expense-tracker
+        run: cd apps/expense-tracker && bun run build
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
+          projectId: '${{ secrets.FIREBASE_PROJECT_ID }}'
+          channelId: live
+          target: expense-tracker
