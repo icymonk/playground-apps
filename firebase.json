@@ -35,6 +35,30 @@
       "public": "apps/ecommerce-store/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "chat-ui",
+      "public": "apps/chat-ui/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "weather-dashboard",
+      "public": "apps/weather-dashboard/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "kanban-dnd",
+      "public": "apps/kanban-dnd/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "music-player",
+      "public": "apps/music-player/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     }
   ]
 }

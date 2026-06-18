@@ -40,6 +40,22 @@
 - **경로**: `apps/ecommerce-store`
 - **설명**: 모던 쇼핑몰 클론 앱입니다. 전역 상태 관리(Global State)를 활용한 복잡한 장바구니 담기, 수량 조절 로직과 아름다운 UI 디자인을 제공합니다.
 
+### 7. AI Chatbot UI (ChatGPT Clone)
+- **경로**: `apps/chat-ui`
+- **설명**: 모던 대화형 AI 인터페이스입니다. 자동 스크롤링, 실시간 타이핑 인디케이터 등 챗봇 UI의 핵심 로직이 모두 구현되어 있습니다.
+
+### 8. Dynamic Weather Dashboard
+- **경로**: `apps/weather-dashboard`
+- **설명**: 아름다운 다이내믹 그라데이션과 날씨 아이콘을 활용한 날씨 대시보드입니다. 날씨 위젯 UI 개발에 적합한 레퍼런스입니다.
+
+### 9. Drag & Drop Kanban (Trello Clone)
+- **경로**: `apps/kanban-dnd`
+- **설명**: HTML5 Drag and Drop API를 순수하게 활용하여 개발한 인터랙티브 칸반 보드입니다. 카드를 집어서 다른 컬럼으로 이동할 수 있습니다.
+
+### 10. Web Music Player (Spotify Clone)
+- **경로**: `apps/music-player`
+- **설명**: 브라우저 하단에 고정된 뮤직 플레이어 바와 트랙 리스트를 갖춘 음악 플레이어 클론입니다. 복잡한 재생 상태와 Seekbar 연동 로직을 다룹니다.
+
 ---
 
 ## 🚀 실행 방법
