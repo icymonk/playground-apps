@@ -29,6 +29,12 @@
       "public": "apps/notes-app/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "ecommerce-store",
+      "public": "apps/ecommerce-store/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     }
   ]
 }
