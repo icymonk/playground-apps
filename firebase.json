@@ -1,44 +1,44 @@
 {
   "hosting": [
     {
-      "target": "habit-tracker",
-      "public": "apps/habit-tracker/dist",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
-    },
-    {
-      "target": "expense-tracker",
-      "public": "apps/expense-tracker/dist",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
-    },
-    {
-      "target": "task-board",
-      "public": "apps/task-board/dist",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
-    },
-    {
       "target": "pomodoro-timer",
       "public": "apps/pomodoro-timer/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     },
     {
-      "target": "notes-app",
-      "public": "apps/notes-app/dist",
+      "target": "calculator-app",
+      "public": "apps/calculator-app/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     },
     {
-      "target": "ecommerce-store",
-      "public": "apps/ecommerce-store/dist",
+      "target": "markdown-editor",
+      "public": "apps/markdown-editor/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     },
     {
-      "target": "chat-ui",
-      "public": "apps/chat-ui/dist",
+      "target": "weather-widget",
+      "public": "apps/weather-widget/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "habit-tracker",
+      "public": "apps/habit-tracker/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "password-generator",
+      "public": "apps/password-generator/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "ai-chatbot",
+      "public": "apps/ai-chatbot/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     },
@@ -57,6 +57,66 @@
     {
       "target": "music-player",
       "public": "apps/music-player/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "crypto-dashboard",
+      "public": "apps/crypto-dashboard/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "fitness-tracker",
+      "public": "apps/fitness-tracker/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "recipe-book",
+      "public": "apps/recipe-book/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "job-board",
+      "public": "apps/job-board/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "video-sharing",
+      "public": "apps/video-sharing/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "real-estate",
+      "public": "apps/real-estate/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "social-feed",
+      "public": "apps/social-feed/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "code-editor",
+      "public": "apps/code-editor/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "email-client",
+      "public": "apps/email-client/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "portfolio-builder",
+      "public": "apps/portfolio-builder/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     }
