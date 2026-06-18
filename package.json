@@ -1,0 +1,15 @@
+{
+  "name": "playground-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vp build"
+  },
+  "dependencies": {
+    "firebase": "^12.15.0"
+  }
+}

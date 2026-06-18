@@ -1,0 +1,22 @@
+{
+  "hosting": [
+    {
+      "target": "habit-tracker",
+      "public": "apps/habit-tracker/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "expense-tracker",
+      "public": "apps/expense-tracker/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "task-board",
+      "public": "apps/task-board/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    }
+  ]
+}
