@@ -17,6 +17,12 @@
       "public": "apps/task-board/dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [ { "source": "**", "destination": "/index.html" } ]
+    },
+    {
+      "target": "pomodoro-timer",
+      "public": "apps/pomodoro-timer/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [ { "source": "**", "destination": "/index.html" } ]
     }
   ]
 }
